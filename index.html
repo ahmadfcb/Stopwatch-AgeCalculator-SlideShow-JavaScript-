@@ -1,0 +1,43 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Assignment 4</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+	<br>
+	<div class=date>
+		<p style="text-decoration: underline; text-decoration-color: blue;">Calculate Your Age</p>
+	Current Date: <input type=date disabled id=todayDate><br><br>
+	Enter your DOB: <input type=date id=birthdate><br><br>
+	<button type=button onclick="check()">Calculate</button><br><br>
+	Your Current Age is : <br><br><span id=cage><br><br></span>
+	</div>
+	<br>
+	<div class=watch>
+	<p style="text-decoration: underline; text-decoration-color: blue;">Stop Watch</p>	
+	<br><span id=display> </span><br>
+	<button onclick="start()" id=startbtn>Start</button><button onclick="stop()" id=stopbtn>Stop</button>
+	<button onclick=lap() id=lapbtn>Lap</button>
+	<ol id=laps style=""></ol>
+	</div>
+	<br><br><br><br><br>
+	<div id=box>
+	<p style="text-decoration: underline; text-decoration-color: blue;">Slide Show</p>	
+	<img name="slide" width="400" height="200">
+	<br>
+	   <button onclick="changePic()" id="pre"> PREV </button><button onclick="changePic()">  NEXT </button>
+	</div>
+
+	</div>
+	<br><br><br><br>
+	<div class="footer">
+	 <p>Muhammad Ahmad  (18F-0203) </p>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+	</body>
+	</div>
+	</html>
